@@ -25,6 +25,7 @@ cd ../../audio_processing/rvc/; python3 rvc.py ${OPTION}
 cd ../../audio_processing/crepe/; python3 crepe.py ${OPTION}
 cd ../../audio_processing/vall-e-x/; python3 vall-e-x.py ${OPTION}
 cd ../../audio_processing/hifigan/; python3 hifigan.py ${OPTION}
+cd ../../audio_processing/distil-whisper/; python3 distil-whisper.py ${OPTION}
 cd ../../background_ramoval/deep-image-matting; python3 deep-image-matting.py ${OPTION}
 cd ../../background_ramoval/u2net; python3 u2net.py ${OPTION}
 cd ../../background_ramoval/u2net; python3 u2net.py -a small ${OPTION}
@@ -44,6 +45,8 @@ cd ../../diffusion/latent-diffusion-superresolution; python3 latent-diffusion-su
 cd ../../diffusion/latent-diffusion-inpainting; python3 latent-diffusion-inpainting.py ${OPTION}
 cd ../../diffusion/stable-diffusion-txt2img; python3 stable-diffusion-txt2img.py ${OPTION}
 cd ../../diffusion/control_net python3 control_net.py ${OPTION}
+cd ../../diffusion/daclip-sde; python3 daclipsde.py ${OPTION}
+cd ../../diffusion/riffusion; python3 riffusion.py ${OPTION}
 cd ../../deep_fashion/clothing-detection; python3 clothing-detection.py ${OPTION}
 cd ../../deep_fashion/fashionai-key-points-detection; python3 fashionai-key-points-detection.py ${OPTION}
 cd ../../deep_fashion/mmfashion; python3 mmfashion.py ${OPTION}
@@ -71,6 +74,7 @@ cd ../../face_identification/arcface; python3 arcface.py ${OPTION}
 cd ../../face_identification/insightface; python3 insightface.py ${OPTION}
 cd ../../face_identification/vggface2; python3 vggface2.py ${OPTION}
 cd ../../face_identification/cosface; python3 cosface.py ${OPTION}
+cd ../../face_identification/facenet_pytorch; python3 facenet_pytorch.py ${OPTION}
 cd ../../face_recognition/face_alignment; python3 face_alignment.py ${OPTION}
 cd ../../face_recognition/face_classification; python3 face_classification.py ${OPTION}
 cd ../../face_recognition/facial_feature; python3 facial_feature.py ${OPTION}
@@ -152,6 +156,7 @@ cd ../../image_manipulation/pytorch-superpoint; python3 pytorch_superpoint.py ${
 cd ../../image_manipulation/cnngeometric_pytorch; python3 cnngeometric_pytorch.py ${OPTION}
 cd ../../image_manipulation/lightglue; python3 lightglue.py ${OPTION}
 cd ../../image_manipulation/docshadow; python3 docshadow.py ${OPTION}
+cd ../../image_restoration/nafnet; python3 nafnet.py ${OPTION}
 cd ../../image_segmentation/deeplabv3; python3 deeplabv3.py ${OPTION}
 cd ../../image_segmentation/hair_segmentation; python3 hair_segmentation.py ${OPTION}
 cd ../../image_segmentation/hrnet_segmentation; python3 hrnet_segmentation.py ${OPTION}
@@ -236,6 +241,7 @@ cd ../../object_detection_3d/3d-object-detection.pytorch; python3 3d-object-dete
 cd ../../object_detection_3d/mediapipe_objectron; python3 mediapipe_objectron.py ${OPTION}
 cd ../../object_detection_3d/egonet; python3 egonet.py ${OPTION}
 cd ../../object_detection_3d/d4lcn; python3 d4lcn.py ${OPTION}
+cd ../../object_tracking/centroids-reid; python3 centroids-reid.py ${OPTION}
 cd ../../object_tracking/deepsort; python3 deepsort.py ${OPTION}
 cd ../../object_tracking/person_reid_baseline_pytorch; python3 person_reid_baseline_pytorch.py ${OPTION}
 cd ../../object_tracking/abd_net; python3 abd_net.py ${OPTION}
